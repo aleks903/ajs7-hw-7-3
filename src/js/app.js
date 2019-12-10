@@ -12,16 +12,9 @@ const heroesU = new Undead('Undead', 'Undead');
 const heroesZ = new Zombie('Zombie', 'Zombie');
 const heroesDe = new Deamon('Deamon', 'Deamon');
 
-heroesD.health = 45;
-heroesD.powerMod = true;
-
-console.log(heroesD.powerMod);
-console.log(heroesD.health);
-console.log(heroesD.attack);
-console.log(heroesD.defence);
-heroesD.powerMod = false;
-console.log(heroesD.powerMod);
-
-console.log(heroesD.health);
-console.log(heroesD.attack);
-console.log(heroesD.defence);
+console.log(heroesD);
+console.log(heroesB);
+console.log(heroesM);
+console.log(heroesU);
+console.log(heroesZ);
+console.log(heroesDe);

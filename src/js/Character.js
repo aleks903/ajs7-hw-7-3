@@ -27,7 +27,7 @@ export default class Character {
 
   set powerMod(value) {
     if (value === true) {
-      this._powerMod = this.onPowerMod === false ? true : false;
+      this._powerMod = this.onPowerMod === false;
       this.onPowerMod = true;
     } else {
       this._powerMod = false;
